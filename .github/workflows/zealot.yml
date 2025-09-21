@@ -35,9 +35,9 @@ jobs:
           MAIL_TO:   ${{ secrets.MAIL_TO }}
           TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
           TG_CHAT_ID:   ${{ secrets.TG_CHAT_ID }}
-          INTERVAL_MIN: "60"
+          INTERVAL_MIN: ${{ inputs.interval_min || '30' }}
           MAX_RESULTS: "100"
-          PAGINATE_PAGES: "3"
+          PAGINATE_PAGES: ${{ inputs.paginate_pages || '3' }}
           FILTER_LINKED_PR: "1"
           MAX_TIMELINE_CHECKS: "60"
           TIMELINE_MAX_PAGES: "2"
