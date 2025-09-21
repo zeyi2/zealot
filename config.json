@@ -1,0 +1,9 @@
+{
+    "interval_minutes": 60,
+    "max_results": 20,
+    "queries": [
+        { "name": "[llvm] first-good-issues", "q": "repo:llvm/llvm-project is:issue is:open label:\"good first issue\"" },
+        { "name": "[llvm] riscv", "q": "repo:llvm/llvm-project is:issue is:open label:\"backend:RISC-V\"" },
+        { "name": "[rust] first-good-issues", "q": "repo:rust-lang/rust is:issue is:open (label:\"E-easy\" OR label:\"E-mentor\" OR label:\"E-medium\")" }
+    ]
+}
