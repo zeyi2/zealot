@@ -1,6 +1,6 @@
 {
-    "interval_minutes": 60,
-    "max_results": 20,
+    "interval_minutes": 30,
+    "max_results": 100,
     "queries": [
         { "name": "[llvm] first-good-issues", "q": "repo:llvm/llvm-project is:issue is:open label:\"good first issue\"" },
         { "name": "[llvm] riscv", "q": "repo:llvm/llvm-project is:issue is:open label:\"backend:RISC-V\"" },
